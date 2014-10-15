@@ -104,6 +104,15 @@
                                     <rect key="frame" x="257" y="181" width="100" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwd-ss-ClS">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="181" width="233" height="42"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="joM-gc-skf"/>
                                 <exclude reference="doj-mR-fji"/>
                                 <exclude reference="Ehb-f3-8mv"/>
+                                <exclude reference="Vwd-ss-ClS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="joM-gc-skf"/>
                                 <include reference="doj-mR-fji"/>
                                 <include reference="Ehb-f3-8mv"/>
+                                <include reference="Vwd-ss-ClS"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="QNw-Vw-mIc" id="pcn-hB-EdD"/>
                         <outlet property="mailButton" destination="joM-gc-skf" id="UkP-vM-xJe"/>
                         <outlet property="messageLabel" destination="doj-mR-fji" id="XhE-Gb-9Zu"/>
+                        <outlet property="nameLabel" destination="Vwd-ss-ClS" id="fal-JG-dgb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
